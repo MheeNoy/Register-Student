@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+h1 {
+  font-family: "Lato", sans-serif;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+}
+h4 {
+  font-family: "Lato", sans-serif;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+}
+h6 {
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  padding: none;
+  margin: none;
+}
+body {
+  margin: none;
+  padding: none;
+}
+header {
+  position: relative;
+  width: 100%;
+  margin-bottom: -1.3vb;
+}
+aside {
+  margin: none;
+
+  padding: none;
+  float: left;
+  position: relative;
+  padding: 1px;
+  width: 55%;
+}
+.img img {
+  width: 540px;
+}
+.container {
+  float: right;
+  position: relative;
+  width: 45%;
+
+  padding: 5%;
+}
+.form {
+  grid-row: inherit;
+  grid-column: inherit;
+}
+.list {
+  width: 100%;
+  position: absolute;
+}
+.testss {
+  background: black;
+}
+.listmember {
+  margin-top: 15px;
+  width: 80%;
+  border-bottom: 2px dotted gray;
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    margin: none;
+
+    padding: none;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 55%;
+  }
+  .img img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 839px) {
+  aside {
+    margin: none;
+
+    padding: none;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 55%;
+  }
+  .img img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 758px) {
+  aside {
+    margin: none;
+
+    padding: none;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 55%;
+  }
+  .img img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 702px) {
+  .listmember {
+    width: 89%;
+    border-bottom: 2px dotted gray;
+  }
+}
+@media screen and (max-width: 668px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 668px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 700px;
+    background: white;
+  }
+  .form {
+    width: 600px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 450px;
+  }
+  .list {
+    width: 668px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 623px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 623px;
+    background: rgb(251, 248, 248);
+  }
+  .form {
+    width: 568px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 410px;
+  }
+  .list {
+    width: 630px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 580px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 580px;
+    background: rgb(251, 248, 248);
+    margin-top: -20px;
+  }
+  .form {
+    width: 538px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 380px;
+  }
+  .list {
+    width: 590px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+@media screen and (max-width: 528px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 528px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 528px;
+    background: rgb(251, 248, 248);
+    margin-top: -20px;
+  }
+  .form {
+    width: 480px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 380px;
+  }
+  .list {
+    width: 528px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+@media screen and (max-width: 480px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 480px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 480px;
+    background: rgb(251, 248, 248);
+    margin-top: -20px;
+  }
+  .form {
+    width: 438px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 340px;
+  }
+  .list {
+    width: 500px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+@media screen and (max-width: 450px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 450px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 450px;
+    background: rgb(251, 248, 248);
+    margin-top: -20px;
+  }
+  .form {
+    width: 408px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 330px;
+  }
+  .list {
+    width: 460px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    padding: none;
+    margin: none;
+  }
+  body {
+    margin: none;
+    padding: none;
+  }
+
+  .img img {
+    width: 400px;
+    height: 200px;
+  }
+  .container {
+    float: left;
+    position: relative;
+    width: 400px;
+    background: rgb(251, 248, 248);
+    margin-top: -20px;
+  }
+  .form {
+    width: 358px;
+  }
+  .form h5 {
+    margin-left: 10px;
+  }
+  .form input {
+    margin-left: 10px;
+    width: 250px;
+  }
+  .list {
+    width: 400px;
+    position: absolute;
+  }
+  .listmember {
+    width: 90%;
+    border-bottom: 2px dotted gray;
+  }
+}
